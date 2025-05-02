@@ -7,7 +7,7 @@
         mobMenu: document.querySelector("#mob-menu"),
     };
 
-    // Модальне вікно (Order Service)
+    // Модальне вікно
     if (refs.openModalBtn && refs.closeModalBtn && refs.modal) {
         refs.openModalBtn.addEventListener("click", toggleModal);
         refs.closeModalBtn.addEventListener("click", toggleModal);
