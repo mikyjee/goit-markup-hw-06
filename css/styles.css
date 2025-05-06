@@ -297,7 +297,7 @@ p {
         letter-spacing: 0.02em;
         color: #434455;
         display: block;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
@@ -315,12 +315,12 @@ p {
         display: flex;
         flex-direction: column;
         gap: 12px;
-        padding: 16px 0;
     }
 
     .mob-menu {
         display: none;
     }
+
 }
 
 @media screen and (min-width: 1158px) {
@@ -679,6 +679,9 @@ p {
 .team-info {
     padding: 32px 0;
     text-align: center;
+
+    background: #ffffff;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .media-container {
@@ -730,6 +733,11 @@ p {
         padding: 96px 0;
     }
 
+    .team-item {
+        background: #ffffff;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    }
+
     .container-team {
         max-width: 768px;
         padding: 0px 108px;
@@ -758,7 +766,6 @@ p {
         border-radius: 0px 0px 4px 4px;
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
             0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-        width: calc((100% - 72px) / 4);
     }
 
     .team-list {
@@ -989,7 +996,7 @@ p {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
-    margin-bottom: 72px;
+    margin-bottom: 0px;
 }
 
 .footer-media {
@@ -1127,7 +1134,7 @@ p {
     .flex-foot {
         display: block;
         margin-right: 24px;
-        margin-bottom: 72px;
+        margin-bottom: 0px;
     }
 
     .footer-name {
